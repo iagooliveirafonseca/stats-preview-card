@@ -1,0 +1,137 @@
+
+  /*================GLOBAL===============*/
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+  }
+  
+  :root{
+    font-size: 62.5% /* 1rem = 10px */
+  }
+  
+  body{
+    font-size: 1.5rem;
+    background-color: hsl(233, 47%, 7%);
+  }
+  
+  /*font-family: 'Lexend Deca', sans-serif;
+  font-family: 'Inter', sans-serif;*/
+  
+  /*================SECTION===============*/
+  main{
+    height: 90rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  #container-card{
+    width: 95rem;
+    height: 40rem;
+    border-radius: 1rem;
+    margin: auto;
+    background-color: hsl(244, 38%, 16%);
+    padding-bottom:2rem ;
+
+    border-radius: 1rem 1rem 1rem 1rem;
+  }
+  
+  #container-card img{
+    width: 47rem;
+    height: 39.9rem;
+    border-radius: 1rem 1rem 1rem 0rem;
+    position: absolute;
+    margin-left: 52rem;
+    margin-top: -34rem;
+  
+  }
+
+  #container-card .img-about{
+    width: 47rem;
+    height: 39.9rem;
+    position: absolute;
+    z-index: 1;
+    border-radius: 1rem 1rem 0rem 0rem;
+    background-color: hsl(277, 95%, 35%);
+    opacity: 0.4;
+    margin-left: 52rem;
+    margin-top: -34rem;
+  
+  }
+  
+ 
+  
+  /*================CONTENT===============*/
+  .content{
+    width: 32rem;
+    margin-left: 7rem;
+    margin-top: 7rem;
+    
+  }
+  
+  .content h2{
+    color: white;
+    text-align: start;
+    font-family:'Inter', sans-serif;
+    font-size: 3rem;
+  }
+  
+  .content a{
+    text-decoration: none;
+    color: hsl(277, 64%, 61%)
+    ;
+  }
+  
+  .content p{
+    margin-top: 2rem;
+    font-size: 1.35rem;
+    line-height: 2.5rem;
+    color: hsla(0, 0%, 100%, 0.75);
+    text-align: start;
+    font-family: 'Lexend Deca', sans-serif;
+    
+  }
+  
+  /*================STATS===============*/
+  
+  .stats{
+    width: 5rem;
+    margin-top: 2rem;
+    margin-left: 7rem ;
+    
+  }
+  
+  .stats ol{
+    display: flex;
+    flex-direction: row;
+    padding-top: 4rem;
+    
+    
+  }
+  
+  .stats ol li{
+    display: grid;
+    list-style: none;
+    color:hsl(0, 0%, 100%);
+    font-size: 2rem;
+    text-align: start;
+    font-family:'Inter', sans-serif;
+    font-weight: 700;
+    padding-right: 3rem;
+    
+   
+  }
+  
+  .stats ol p{
+    color: hsla(0, 0%, 100%, 0.6); 
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding-top: 0.5rem;
+    padding-right: 2rem;
+    
+  }
